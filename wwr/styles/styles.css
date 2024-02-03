@@ -56,6 +56,10 @@ footer p {
     font-size: 1.1em;}
 footer a:hover {
     text-decoration: underline;}
+/* I created an id named center(id="center") to help center my links in the nav element because they could not center at first */
+#center {
+    text-align: center;}
+
 
 
 
