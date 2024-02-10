@@ -1,10 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Dancing+Script&family=Noto+Sans:wght@300&family=Single+Day&display=swap');
 #content {max-width: 1600px;
 margin: 0 auto;}
 nav a {
 color: black;
 text-decoration: none;
-text-align: center;}
+text-align: center;
+padding: 35px;}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;}
 .button-box {text-align: center;}
@@ -13,7 +14,10 @@ main section {
 #background {
     height: 725px;}
 body {
-    background-color: #c2d2da;}
+    background-color: #c2d2da;
+font-family: "Noto sans", Helvetica, sans-serif;
+font-size: 22px;
+margin: 0; padding: 0;}
 header {
     background-color: #2596be;}
 nav a:hover {
@@ -22,26 +26,38 @@ color: black;
 }
 .book, .join {background-color: #ffb703;
 color: black;
-text-decoration: none
-}
+text-decoration: none;
+font-size: 18px;padding: 15px 30px;
+margin-top: 50px;
+border-radius: 5px;}
 .book:hover, .join:hover {background-color: green;
 color: red;
 text-align: center;}
 #background {
     background-color:grey ;}
 .msg {
-    background-color:white ;}
+    background-color:white ;
+line-height: 1.5em;
+padding: 35px;}
 footer {background-color:#b9b250 ;
-color: #3a03ff;}
+color: #3a03ff;
+padding: 25px 50px;
+margin-top: 200px;}
 .home-title {color: #3a03ff;
-    }
+  font-family:Amita, "Dancing Script","Single Day";
+font-size: 2em;
+margin-top: 10px;}
 h4 {
     color: #3a03ff;} 
 .msg h2 {
-    color: #3a03ff;}
+    color: #3a03ff;
+font-family: Amita, "Dancing Script","Single Day";
+margin: 0;}
 /* I left the paragraph(.msg p) in black color because i like how it looked with white better than any other color i would use */
 .msg p {
-    color: black;}
+    color: black;
+font-size: .8em;
+padding-bottom: 15px;}
 footer a {
     color: #3a03ff;
 text-decoration: none;}
@@ -49,7 +65,7 @@ footer a:hover {color: white;}
 .logo {width: 80px;
 }
 .icon {width: 80px;
-}
+padding-top: 10px;}
 #hero-img {
     width: 100%;}
 footer p {
@@ -59,6 +75,12 @@ footer a:hover {
 /* I created an id named center(id="center") to help center my links in the nav element because they could not center at first */
 #center {
     text-align: center;}
+#logo_link {padding-bottom: 5px;}
+footer .social img {padding-top: 15px;}
+.rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
+.card-img {border: 10px solid #ffb703;}
+main section img {box-sizing: border-box;}
+
 
 
 
