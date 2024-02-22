@@ -19,7 +19,10 @@ font-family: "Noto sans", Helvetica, sans-serif;
 font-size: 22px;
 margin: 0; padding: 0;}
 header {
-    background-color: #2596be;}
+    background-color: #2596be;
+display: grid;
+grid-template-columns: 150px auto; 
+}
 nav a:hover {
     background-color: white;
 color: black;
@@ -74,13 +77,32 @@ footer a:hover {
     text-decoration: underline;}
 /* I created an id named center(id="center") to help center my links in the nav element because they could not center at first */
 #center {
-    text-align: center;}
-#logo_link {padding-bottom: 5px;}
+    text-align: center;
+}
+#logo_link {padding-bottom: 5px;
+justify-self: center;
+align-self: center;}
 footer .social img {padding-top: 15px;}
 .rivers-card, .camping-card, .rapids-card {margin: 200px 0;}
 .card-img {border: 10px solid #ffb703;}
 main section img {box-sizing: border-box;}
+nav {
+display: flex;
+justify-content: space-around;   
+}
+#hero {
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+}
+#hero-box {
+grid-column: 1/4;
+grid-row: 1/3;
+}
+#hero-msg {
+grid-column: 2/3;
+grid-row: 1/2;
 
+}
 
 
 
