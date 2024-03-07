@@ -199,7 +199,52 @@ height: 200px;
 
 
 
-@media screen and (max-width: 900px) {
+
+
+
+
+
+
+
+/*THIS IS THE SECOND CSS FOR THE PAGE 2*/
+
+.river-title {
+    text-align: center;
+}
+.image_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+.img-first {
+    width: 200px;
+    height: 200px;
+}
+.img-second {
+    width: 200px;
+    height: 200px;
+}
+
+.img-third {
+    width: 200px;
+    height: 200px;
+}
+.img-fourth {
+    width: 200px;
+    height: 200px;
+}
+.img-first {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -332,7 +377,7 @@ grid-column: 2/3;
 grid-row: 1/2;
 }*/
 
-
+*/
 
 
 
