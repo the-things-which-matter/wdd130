@@ -238,10 +238,12 @@ font-size: 22px;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-left: 300px;
+    color:#ffb703;
 }
 
+
  .top_title, .river-title{
-    color: #ffb703;
+    
     font-family:Amita, "Dancing Script","Single Day";
     font-size: 2em;
     margin-top: 10px;
@@ -249,7 +251,7 @@ font-size: 22px;
 
 .river-title {
     text-align: center;
-    color: #ffb703;
+    color: #3a03ff;
     
     
 }
