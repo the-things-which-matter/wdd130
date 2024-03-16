@@ -28,8 +28,8 @@
     </div><h1>Choose your path wisely</h1>
 
     <div id="two_images">
-        <img class="type_first" src="" alt="">
-        <img  class="type_second" src="" alt="">
+        <img class="type_first" src="Images/levitation.jpg" alt="Levitating cards">
+        <img  class="type_second" src="Images/magician.jpg" alt="Magician displaying different cards">
     </div>
   
 
