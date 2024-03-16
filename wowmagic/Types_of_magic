@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wow Magic Home Page</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="https://the-things-which-matter.github.io/wdd130/"> 
+           <img id="logo" src="Images/magic logo.png" alt="Magic Logo">
+       </a>
+            
+    
+      <nav>
+       <div id="center">
+          <a href="https://the-things-which-matter.github.io/wdd130/wowmagic/index.html">Home</a>
+          <a href="https://the-things-which-matter.github.io/wdd130/wwr/family_float.html">Types of Magic</a>
+          <a href="https://the-things-which-matter.github.io/wdd130/wwr/site-plan-rafting.html">Magic Monetization</a>
+          <a href="https://the-things-which-matter.github.io/wdd130/wwr/contactus.html">Contact Us</a>
+       </div>
+      </nav>
+    </header>
+    <div id="type_area">
+        <div class="type">
+              <img id="banner_type" src="Images/page 2 hero.png" alt="A picture showing different types of magic">
+    </div><h1>Choose your path wisely</h1>
+
+    <div id="two_images">
+        <img class="type_first" src="" alt="">
+        <img  class="type_second" src="" alt="">
+    </div>
+  
+
+
+
+    </div>
+
+    <footer>
+        <p>Wow Magic &copy; 01/27/2024 - Brigham Iga</p>
+        <p><a href="https://the-things-which-matter.github.io/wdd130/wowmagic/site-plan.html">Site Plan</a></p>
+        <p><a href="contactus.html">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank"> 
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
