@@ -1,0 +1,27 @@
+
+
+
+
+
+#magic_logo {
+    
+}
+
+
+
+.top {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+
+.first_top {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+nav {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
