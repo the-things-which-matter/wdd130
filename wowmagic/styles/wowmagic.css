@@ -4,6 +4,9 @@
 
 
 #magic_logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
     
 }
 
@@ -23,5 +26,102 @@
 nav {
     grid-column: 2/3;
     grid-row: 1/2;
+    /*align-items: center;*/
+    align-self: center;
 }
+
+
+
+/*BANNER*/
+.banner {
+    max-width: 100%;
+}
+.banner_home {
+    max-width: 100%;
+
+}
+
+
+.first_heading {
+    text-align: center;
+}
+
+
+
+
+
+.second_heading {
+    text-align: center;
+}
+
+/*THE THREE IMAGES*/
+.threes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-rows: 1/3;*/
+    gap: 10px;
+}
+
+.first_image {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+
+
+.second_image {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+
+
+.third_image {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+
+.joining_button {
+    grid-column: 2/3;
+   /* grid-row: 2/3;
+    align-items: center;
+    align-self: center;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS FOR THE FLEX AREA*/
+.main_img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.box_one {
+    display: grid;
+    grid-template-columns: 1fr;
+    float: left;
+}
+
+.next {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+
+
+
+
 
