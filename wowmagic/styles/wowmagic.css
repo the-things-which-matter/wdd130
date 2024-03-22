@@ -1,14 +1,70 @@
 
 
 
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Dancing+Script&family=Noto+Sans:wght@300&family=Single+Day&display=swap');
 
 
 
+header {
+    background-color: #2596be;
+display: grid;
+/*grid-template: 1fr /150px auto ; 
+grid-auto-flow: row;
+margin: -10px 0;*/
 
+grid-template-columns: 150px auto;
+}
 #all{
     padding: 50px;
     margin: 50px;
 }
+
+
+
+nav {
+   /* grid-column: 2/3;
+    grid-row: 1/2;
+    /*align-items: center;*/
+  /*  align-self: center;*/
+
+    
+  
+    grid-template-columns: 2/3;
+    width: auto;
+    grid-template-rows: 1/2; 
+    }
+
+    nav a {
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        padding: 35px;}
+
+
+        nav a:hover {
+            background-color: white;
+        color: black;
+        
+        }
+
+
+#push { 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 100px;
+}
+    
+
+
+body {
+    background-color: #c2d2da;
+font-family: "Noto sans", Helvetica, sans-serif;
+font-size: 22px;
+margin: 0; padding: 0;}
+
 
 
 #magic_logo {
@@ -29,13 +85,6 @@
 .first_top {
     grid-column: 1/2;
     grid-row: 1/2;
-}
-
-nav {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    /*align-items: center;*/
-    align-self: center;
 }
 
 
@@ -178,3 +227,28 @@ nav {
 
 
 
+footer {background-color:#b9b250 ;
+    color: #3a03ff;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+
+    footer a {
+        color: #3a03ff;
+    text-decoration: none;}
+
+    footer a:hover {
+        color: white;
+    }
+
+
+    footer p {
+        font-size: 1.1em;
+    }
+
+    footer a:hover {
+        text-decoration: underline;}
