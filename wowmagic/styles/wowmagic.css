@@ -3,6 +3,14 @@
 
 
 
+
+
+#all{
+    padding: 50px;
+    margin: 50px;
+}
+
+
 #magic_logo {
     width: 70px;
     height: 70px;
@@ -60,6 +68,9 @@ nav {
 
 
 /*FLOAT IMAGE*/
+.area {
+    margin: 50px;
+}
 .main_img {
     height: 300px;
     width: 400px;
@@ -153,7 +164,7 @@ nav {
    /* display: grid;
     grid-template-columns: 1fr;*/
     float: left;
-    margin-right: 50px;
+    margin-right: 15px;
 }
 
 .next {
