@@ -15,8 +15,8 @@ margin: -10px 0;*/
 grid-template-columns: 150px auto;
 }
 #all{
-    padding: 50px;
-    margin: 50px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 
@@ -32,6 +32,8 @@ nav {
     grid-template-columns: 2/3;
     width: auto;
     grid-template-rows: 1/2; 
+    display: flex;
+    justify-content: space-around; 
     }
 
     nav a {
@@ -252,3 +254,7 @@ footer {background-color:#b9b250 ;
 
     footer a:hover {
         text-decoration: underline;}
+
+    .media {
+        border-radius: 10%;
+    }
