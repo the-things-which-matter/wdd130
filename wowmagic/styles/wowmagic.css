@@ -6,7 +6,7 @@
 
 
 header {
-    background-color: #2596be;
+    background-color: #3a03ff;
 display: grid;
 /*grid-template: 1fr /150px auto ; 
 grid-auto-flow: row;
@@ -17,7 +17,8 @@ grid-template-columns: 150px auto;
 #all{
     max-width: 1600px;
     margin: 0 auto;
-    background-color: gray;
+    
+    background-color: #8ecae6;
 }
 
 
@@ -38,15 +39,19 @@ nav {
     }
 
     nav a {
-        color: black;
+        color: #ffb703;
         text-decoration: none;
         text-align: center;
-        padding: 35px;}
+        padding: 35px;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
 
         nav a:hover {
             background-color: white;
         color: black;
+        font-weight: bold;
         
         }
 
@@ -68,7 +73,9 @@ nav {
 
 
 body {
-    background-color: #c2d2da;
+      background-color: #c2d2da;
+      /*background-color: #8ecae6;*/
+       
 font-family: "Noto sans", Helvetica, sans-serif;
 font-size: 22px;
 margin: 0; padding: 0;}
@@ -120,30 +127,43 @@ margin: 0; padding: 0;}
 }
 
 
-.first_heading {
-    text-align: center;
-}
 
 
 
 
 
-.second_heading {
-    text-align: center;
-}
+
 
 
 /*FLOAT IMAGE*/
 /*.area {
     margin: 50px;
 }*/
+
+.words {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 .main_img {
     height: 300px;
     width: 400px;
 }
 
 
+.first_heading {
+    color: #3a03ff;
+font-family: Amita, "Dancing Script","Single Day";
+/*margin: 0;*/
+text-align: center;
+}
 
+
+
+.second_heading {
+   color:#3a03ff ; 
+   font-family: Amita, "Dancing Script","Single Day";
+   text-align: center;
+}
 
 
 
@@ -155,12 +175,15 @@ margin: 0; padding: 0;}
     grid-template-columns: 1fr 1fr 1fr;
     /*grid-template-rows: 1/3;*/
     gap: 10px;
+
+    
 }
 
 .first_image {
     grid-column: 1/2;
     grid-row: 1/2;
     height: 300px;
+    margin-left: 20px;
 }
 
 
@@ -170,6 +193,7 @@ margin: 0; padding: 0;}
     grid-row: 1/2;
     width: 350px;
     height: 300px;
+    margin-left: 35px;
 }
 
 
@@ -177,32 +201,31 @@ margin: 0; padding: 0;}
 .third_image {
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 400px;
+    width: 505px;
     height: 300px;
 }
 
 
 
 .h3_one {
-    margin-left: 135px;
+    margin-left: 150px;
 }
 
 
 .h3_two {
-    margin-left: 60px;
+    margin-left: 100px;
 }
 
 .h3_three {
-    margin-left: 110px;
+    margin-left: 120px;
 }
 
 
 
 .joining_button {
     grid-column: 2/3;
-   /* grid-row: 2/3;
-    align-items: center;
-    align-self: center;*/
+    font-weight: bold;
+
     margin-left: 110px;
     background-color: #ffb703;
         color: black;
@@ -212,13 +235,15 @@ margin: 0; padding: 0;}
         border-radius: 5px;
         text-align: center;
         width: 80px;
-        margin-right: 120px;
+       /* margin-right: 80px;*/
+       margin-left: 150px;
 }
 
 .joining_button:hover {
     background-color: green;
-        color: red;
+        color: #ffb703;
         text-align: center;
+        font-weight: bold;
     
 }
 
@@ -279,6 +304,7 @@ margin: 0; padding: 0;}
    /* float: left;*/
     grid-column: 1/2;
     grid-row: 2/3;
+    margin-left: 10px;
    
     
 }
@@ -290,7 +316,7 @@ margin: 0; padding: 0;}
 }
 */
 
-footer {background-color:#b9b250 ;
+footer {background-color:#ffb703 ;
     color: #3a03ff;
     padding: 25px 50px;
     margin-top: 200px;
@@ -302,7 +328,10 @@ footer {background-color:#b9b250 ;
 
     footer a {
         color: #3a03ff;
-    text-decoration: none;}
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
 
     footer a:hover {
         color: white;
