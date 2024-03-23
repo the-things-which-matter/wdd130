@@ -324,6 +324,12 @@ footer {background-color:#ffb703 ;
     align-items: center;
     }
 
+    footer p {
+        font-size: 1.1em;}
+        .pass {
+            font-weight: bold;
+        }
+
 
     footer a {
         color: #3a03ff;
