@@ -343,6 +343,7 @@ footer {background-color:#ffb703 ;
 
     footer a:hover {
         text-decoration: underline;}
+        footer .social img {padding-top: 15px;}
 
     .media {
         border-radius: 10%;
