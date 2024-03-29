@@ -354,3 +354,53 @@ footer {background-color:#ffb703 ;
     .media {
         border-radius: 10%;
     }
+
+
+
+
+
+
+
+    /*CSS FOR "TYPES OF MAGIC" PAGE*/
+
+
+
+
+
+
+ 
+    .heading_one {
+        text-align: center;
+        color: #3a03ff;
+        font-family: Amita, "Dancing Script","Single Day";
+        font-weight: bold;
+    }
+    
+    .heading_two {
+        text-align: center;
+        color: #3a03ff;
+        font-family: Amita, "Dancing Script","Single Day";
+        font-weight: bold;
+    }
+
+    .types {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-weight: bold;
+    }
+
+
+    .img_type1 {
+        height: 434px;
+        width: 40%;
+    }
+
+
+    #hero_type {
+        width: 100%;
+    }
+
+
+    #type_image {
+        width: 100%;
+    }
