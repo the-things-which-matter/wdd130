@@ -428,3 +428,36 @@ footer {background-color:#ffb703 ;
         font-weight: bold;
         font-size: 25px;
     }
+
+
+
+
+
+
+
+    /*CSS FOR MAGIC MONETIZATION PAGE*/
+
+
+    .money_heading1 {
+        text-align: center;
+        color: #3a03ff;
+        font-family: Amita, "Dancing Script","Single Day";
+        font-weight: bold;
+    }
+
+
+    .money_heading2 {
+        text-align: center;
+        color: #3a03ff;
+        font-family: Amita, "Dancing Script","Single Day";
+        font-weight: bold;
+    }
+      
+    .money_img1 {
+        float: left;
+    }
+
+
+    .money_img2 {
+        float: left;
+    }
